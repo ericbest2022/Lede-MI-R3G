@@ -26,6 +26,9 @@ env:
   TZ: Asia/Shanghai
   GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-22.04
